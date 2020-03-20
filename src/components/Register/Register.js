@@ -23,7 +23,7 @@ onNameChange = (event) => {
 }
 
 onSubmitSignIn = () => {
-  fetch('http://localhost:3001/register', {
+  fetch('https://afternoon-coast-10889.herokuapp.com/register', {
     method: 'post',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
