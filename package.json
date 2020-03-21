@@ -21,6 +21,8 @@
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts build",
+    "deploy": "serve -s build",
+    "heroku-postbuild": "cd client && yarn && yarn run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
